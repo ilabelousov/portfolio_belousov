@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    }
+    body{
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+   }
+   h1,h2,h3{
+    text-transform: uppercase;
+   }
+   li{
+    list-style-type: none;
+   }
+  .container {
+    width: 1301px;
+    margin: 0 auto;
+  }
+
+  /*начало*/
+ 
+.firstul{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.firstli a{
+    color: white;
+    text-decoration: none;
+}
+.firstli{
+    display: inline-table;
+    text-align: left;
+    margin: 20px 40px;
+}  
+.secondul a,.thirdul a{
+    text-decoration: underline;
+}
+.firstli:hover > a{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.secondul{
+    display: none;
+}
+.firstli .thirdul{
+    display: none;
+}
+.firstli:hover > .secondul{
+    display: block;
+    font-size: small;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.firstli:hover > .thirdul{
+    display: block;
+    font-size: small;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.text{
+    padding-top: 170px;
+}
+.imgodin img{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 90px;
+    width: 3%;
+    height: auto;
+}
+.text h3{
+    padding-top: 100px;
+    padding-left: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.text li{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.text ul li{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 200px;
+}

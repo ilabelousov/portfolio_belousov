@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    }
+    body{
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+   }
+   h1,h2,h3{
+    text-transform: uppercase;
+   }
+   li{
+    list-style-type: none;
+   }
+  .container {
+    width: 1301px;
+    margin: 0 auto;
+  }
+
+  /*начало*/
+ 
+.firstul{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.firstli{
+    display: inline-table;
+    text-align: left;
+    margin: 20px 40px;
+}  
+.firstli a{
+    color: white;
+    text-decoration: none;
+}
+.secondul a,.thirdul a{
+    text-decoration: underline;
+    color: white;
+}
+.firstli:hover > a{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.secondul{
+    display: none;
+}
+.firstli .thirdul{
+    display: none;
+}
+.firstli:hover > .secondul{
+    display: block;
+    font-size: small;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.firstli:hover > .thirdul{
+    display: block;
+    font-size: small;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.text h3{
+    font-size: 70px;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.info{
+    margin-top: 100px;
+}
+.info a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.info p{
+    padding-left: 40px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+hr{
+    margin-left: 73px;
+    margin-top: 150px;
+    width: 250px;
+    border-width: 1px;
+}
+.myfoto img{
+    float: right;
+    margin-right: 150px;
+    margin-top: -80px;
+    height: 500px;
+    width: auto;
+    border: 3px solid white;
+}
