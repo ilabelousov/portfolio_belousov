@@ -23,22 +23,22 @@
 
   /*начало*/
  
-.firstul{
+  .firstul{
     position: absolute;
     width: 100%;
     text-align: center;
+}
+
+.firstli a{
+    color: white;
+    text-decoration: none;
 }
 .firstli{
     display: inline-table;
     text-align: left;
     margin: 20px 40px;
 }  
-
-.firstli a{
-    color: white;
-    text-decoration: none;
-}
-.secondul a,.thirdul a,.fourul a{
+.secondul a,.thirdul a{
     text-decoration: underline;
 }
 .firstli:hover > a{
@@ -58,9 +58,6 @@
 .firstli .thirdul{
     display: none;
 }
-.firstli .fourul{
-    display: none;
-}
 .firstli:hover > .secondul{
     display: block;
     font-size: small;
@@ -73,43 +70,29 @@
     padding-top: 5px;
     cursor: pointer;
 }
-.firstli:hover > .fourul{
-    display: block;
-    font-size: small;
-    padding-top: 5px;
-    cursor: pointer;
-}
+
 .text{
-    padding-top: 100px;
+    padding-top: 50px;
 }
-.imgodin img{
-    position: absolute;
-    margin-left: 260px;
-    margin-top: 80px;
-    width: 3%;
+.imgodin, .imgdva{
+    width: auto;
     height: auto;
+    text-align: center;
 }
-.imgdva img{
-    position: absolute;
-    margin-left: 245px;
-    margin-top: 80px;
-    width: 4%;
+.imgodin img, .imgdva img{
+    margin-top: 90px;
+    margin-right: 860px;
+    width: 50px;
     height: auto;
 }
 .text h3{
-    padding-top: 100px;
-    padding-left: 30px;
-    text-align: center;
     text-decoration: underline;
+    text-align: center;
+    margin-top: -35px;
 }
 .text li{
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
-.text ul li{
-    list-style-type: upper-roman;
-    list-style-position: inside;
-    text-align: left;
-    padding-left: 200px;
+.text li:last-child{
+    padding-top: 50px;
 }

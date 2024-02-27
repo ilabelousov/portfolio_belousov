@@ -72,29 +72,26 @@
 }
 
 .text{
-    padding-top: 170px;
+    padding-top: 50px;
+}
+.imgodin{
+    width: auto;
+    height: auto;
+    text-align: center;
 }
 .imgodin img{
-    position: absolute;
-    margin-left: 250px;
     margin-top: 90px;
-    width: 3%;
+    margin-right: 860px;
+    width: 50px;
     height: auto;
 }
 .text h3{
-    padding-top: 100px;
-    padding-left: 30px;
-    text-align: center;
     text-decoration: underline;
+    text-align: center;
+    margin-top: -35px;
 }
 .text li{
     text-align: center;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-.text ul li{
-    list-style-type: upper-roman;
-    list-style-position: inside;
-    text-align: left;
-    padding-left: 200px;
+    padding-right: 500px;
+    padding-top: 50px;
 }
