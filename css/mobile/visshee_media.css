@@ -24,7 +24,7 @@
     .imgodin img, .imgdva img{
         margin-top: 50px;
         margin-right: 0px;
-        width: 100px;
+        width: 65px;
         height: auto;
     }
     .text h3{
@@ -44,9 +44,21 @@
     .start .firstli{
         margin: 20px 5px;
     }
+    .imgodin, .imgdva{
+        display: none;
+    }
+    .text {
+        padding-top: 100px;
+    }
 }
 @media screen and (max-width: 480px) {
     .start .firstli{
-        margin: 20px 1px;
+        margin: 20px 2px;
+    }
+    .imgodin, .imgdva{
+        display: none;
+    }
+    .text {
+        padding-top: 150px;
     }
 }

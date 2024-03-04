@@ -34,4 +34,13 @@
     .start .firstli{
         margin: 20px 1px;
     }
+    .textorabote h2{
+        font-size: 15px;
+    }
+    .textorabote p{
+        font-size: 11px;
+    }
+    .textorabote{
+        padding-top: 20px;
+    }
 }

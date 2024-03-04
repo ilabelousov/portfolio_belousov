@@ -22,7 +22,7 @@
     .imgodin img{
         margin-top: 50px;
         margin-right: 0px;
-        width: 100px;
+        width: 80px;
         height: auto;
     }
     .text h3{
@@ -33,13 +33,30 @@
         margin: 20px 15px;
     }
 }
+@media screen and (max-width: 790px) {
+    .text li{
+        font-size: 11px;
+    }
+}
 @media screen and (max-width: 580px) {
     .start .firstli{
         margin: 20px 5px;
     }
+    .imgodin{
+        display: none;
+    }
+    .text {
+        padding-top: 100px;
+    }
 }
 @media screen and (max-width: 480px) {
     .start .firstli{
-        margin: 20px 1px;
+        margin: 20px 2px;
+    }
+    .imgodin{
+        display: none;
+    }
+    .text {
+        padding-top: 150px;
     }
 }

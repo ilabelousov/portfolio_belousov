@@ -34,4 +34,28 @@
     .start .firstli{
         margin: 20px 0px;
     }
+    .text h3{
+        font-size: 40px;
+    }
+    .text{
+        padding-top: 10px;
+    }
+    hr{
+        margin-top: 50px;
+    }
+    .info{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .start .firstli{
+        margin: 20px 1px;
+    }
+    .start .firstul{
+        width: 70%;
+        margin-left: 60px;
+    }
+    .text h3{
+        margin-top: 30px;
+    }
 }

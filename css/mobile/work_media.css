@@ -42,3 +42,11 @@
         margin: 20px 1px;
     }
 }
+@media screen and (max-width: 420px) {
+    .start .firstli{
+        margin: 20px 1px;
+    }
+    .orabote{
+        padding-top: 30px;
+    }
+}
