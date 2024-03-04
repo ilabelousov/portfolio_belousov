@@ -76,27 +76,11 @@
 }
 .textorabote p{
     text-align: center;
-    width: 900px;
-    margin-left: 250px;
     padding-top: 30px;
 }
-.perviy a:first-child img:first-child{
-    width: 750px;
-    height: auto;
-    margin-top: 20px;
-    margin-left: 60px;
+.perviy {
+    text-align: center;
 }
-.perviy .vtoroefoto{
-    width: 450px;
-    height: auto;
-    float: right;
+.perviy a img{
     margin-top: 10px;
-    margin-right: 50px;
-}
-.perviy a:last-child img:last-child{
-    width: 450px;
-    height: auto;
-    float: right;
-    margin-right: 50px;
-    margin-top: -170px;
 }
