@@ -40,7 +40,11 @@
 }
 @media screen and (max-width: 580px) {
     .start .firstli{
-        margin: 20px 5px;
+        margin: 20px 10px;
+    }
+    .start .firstul{
+        width: 70%;
+        margin-left: 60px;
     }
     .imgodin{
         display: none;
@@ -48,15 +52,36 @@
     .text {
         padding-top: 100px;
     }
+    .text h3{
+        padding-top: 30px;
+    }
 }
 @media screen and (max-width: 480px) {
     .start .firstli{
-        margin: 20px 2px;
+        margin: 20px 7px;
     }
     .imgodin{
         display: none;
     }
     .text {
         padding-top: 150px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .start .firstli{
+        margin: 20px 10px;
+    }
+    .start .firstul{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .start .firstli{
+        margin: 20px 2px;
+    }
+    .start .firstul{
+        width: 100%;
+        margin-left: 0px;
     }
 }

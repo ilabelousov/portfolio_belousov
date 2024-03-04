@@ -61,7 +61,11 @@
 
 @media screen and (max-width: 550px) {
     .start .firstli{
-        margin: 20px 0px;
+        margin: 20px 10px;
+    }
+    .start .firstul{
+        width: 70%;
+        margin-left: 60px;
     }
     .text {
         padding-top: 60px;
@@ -85,5 +89,28 @@
     }
     .text p:last-child{
         padding-top: 5px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .start .firstli{
+        margin: 20px 7px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .start .firstli{
+        margin: 20px 5px;
+    }
+    .start .firstul{
+        width: 94%;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .start .firstli{
+        margin: 20px 2px;
+    }
+    .start .firstul{
+        width: 100%;
+        margin-left: 0px;
     }
 }
